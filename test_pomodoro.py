@@ -75,7 +75,7 @@ def pomodoro(work_min=40, break_min=10, cycles=4):
             print(f'\n Перерыв окончен. Готов к следующему циклу?')
             input('Нажми Enter для продолжения...')
         else:
-            print(f'\n Ты завершил {cycles} циклов учебы')
+            print(f'\n Ты завершил {cycles} циклов учебы!')
             print('Так держать!\n')
 
 if __name__ == '__main__':
